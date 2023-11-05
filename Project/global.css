@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100vw !important;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-raleway: Raleway;
+  --font-nunito: Nunito;
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-11xl: 1.88rem;
+  --font-size-lg: 1.13rem;
+  --font-size-base: 1rem;
+  --font-size-29xl: 3rem;
+  --font-size-sm: 0.88rem;
+  --font-size-xs: 0.75rem;
+  --font-size-xl: 1.25rem;
+  --font-size-20xl: 2.44rem;
+  --font-size-6xl: 1.56rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #252a34;
+  --color-gray-200: rgba(37, 42, 52, 0.65);
+  --color-silver: #c4c4c4;
+  --color-darkgreen: #3a7000;
+  --color-gainsboro-100: #ddd;
+  --color-gainsboro-200: #d9d9d9;
+  --color-dimgray: #555;
+  --color-yellowgreen: #5db104;
+  --color-powderblue: #c7e7df;
+  --color-black: #000;
+  --color-darkgray: #afafaf;
+
+  /* Gaps */
+  --gap-284xl: 18.94rem;
+  --gap-3xs: 0.63rem;
+
+  /* Paddings */
+  --padding-xs: 0.75rem;
+  --padding-5xl: 1.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-base: 1rem;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-71xl: 90px;
+}
