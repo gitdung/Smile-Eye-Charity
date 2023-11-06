@@ -18,15 +18,22 @@
 }
 
 .achivements .our-testimonials {
-  position: absolute;
   width: 100%;
   height: 676px;
-  top: 3333px;
+  top: 190rem;
   left: 0;
+  position: absolute;
 }
 
 .achivements .overlap {
   position: relative;
+  width: 100%;
+  height: 676px;
+  background-color: #d9d9d9;
+}
+
+.achivements .my-overlap {
+  position: absolute;
   width: 100%;
   height: 676px;
   background-color: #d9d9d9;
@@ -238,20 +245,27 @@
   border-radius: 28px;
 }
 
+.achivements .dcm-n-2 {
+  display: flex;
+  justify-content: center;
+}
+
 .achivements .dcm-no {
   position: relative;
+  top: 5rem;
+
 }
 
 .achivements .our-gallery {
-  position: absolute;
+  /* position: absolute; */
   width: auto;
   height: auto;
-  top: 2rem;
+  top: 5rem;
 }
 
 .achivements .text-wrapper-4 {
   position: absolute;
-  left: 40rem;
+  left: -5rem;
   font-family: "Raleway", Helvetica;
   font-weight: 700;
   color: #252a34;
@@ -262,8 +276,8 @@
 }
 
 .achivements .ssss {
-  position: relative;
-  left: 5.5rem;
+  position: absolute;
+  right: 40rem;
 }
 
 .achivements .unsplash {
@@ -914,6 +928,8 @@
 }
 
 .achivements .footer {
+  /* position: absolute; */
+  left: -5rem;
   height: 512px;
 }
 
@@ -925,10 +941,10 @@
 
 .achivements .group-12 {
   position: relative;
-  width: 1485px;
-  height: 393px;
+  width: fit-content;
+  height: auto;
   top: 72px;
-  left: 199px;
+  left: 6rem;
 }
 
 .achivements .group-13 {
@@ -1084,11 +1100,14 @@
   height: 131px;
   top: 93px;
   left: 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .achivements .enter-your-email-wrapper {
-  position: absolute;
-  width: 479px;
+  /* position: absolute; */
+  position: relative;
+  width: 230px;
   height: 83px;
   top: 0;
   left: 0;
@@ -1097,9 +1116,10 @@
 
 .achivements .enter-your-email {
   position: absolute;
+  text-align: center;
   width: 203px;
   top: 26px;
-  left: 28px;
+  left: -2rem;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #555555;
@@ -1109,15 +1129,15 @@
 }
 
 .achivements .frame-2 {
-  align-items: center;
-  justify-content: center;
   left: 479px;
   background-color: #3a7000;
   display: inline-flex;
   gap: 10px;
   padding: 12px 24px;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
+  width: 125px;
+  height: 48px;
 }
 
 .achivements .text-wrapper-24 {
