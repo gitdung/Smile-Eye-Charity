@@ -721,6 +721,7 @@
 
 .achivements .translate-cont {
   display: flex;
+  margin-left: 8rem;
 }
 
 .achivements .nav-cont {
