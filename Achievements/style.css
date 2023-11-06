@@ -238,18 +238,20 @@
   border-radius: 28px;
 }
 
+.achivements .dcm-no {
+  position: relative;
+}
+
 .achivements .our-gallery {
   position: absolute;
-  width: 1298px;
-  height: 730px;
-  top: 2418px;
-  left: 323px;
+  width: auto;
+  height: auto;
+  top: 2rem;
 }
 
 .achivements .text-wrapper-4 {
   position: absolute;
-  top: 0;
-  left: 0;
+  left: 40rem;
   font-family: "Raleway", Helvetica;
   font-weight: 700;
   color: #252a34;
@@ -257,6 +259,11 @@
   letter-spacing: 0;
   line-height: 50px;
   white-space: nowrap;
+}
+
+.achivements .ssss {
+  position: relative;
+  left: 5.5rem;
 }
 
 .achivements .unsplash {
@@ -1216,11 +1223,20 @@
   border-radius: 27.58px;
 }
 
+.achivements .me-kiep {
+  display: flex;
+  justify-content: center;
+}
+
+.achivements .my-para {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
 .achivements .lorem-ipsum-dolor {
-  position: absolute;
-  width: 1296px;
-  top: 1606px;
-  left: 312px;
+  display: flex;
+  width: 50rem;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #666666;
@@ -1230,23 +1246,29 @@
 }
 
 .achivements .charity-project-for {
-  width: 1183px;
-  top: 1436px;
-  left: 323px;
+  justify-self: center;
+  text-align: center;
+  width: 50rem;
   color: #252a34;
   font-size: 50px;
   line-height: 50px;
-  position: absolute;
   font-family: "Raleway", Helvetica;
   font-weight: 700;
   letter-spacing: 0;
+  font-size: 35px;
+}
+
+.achivements .anh-em-nho {
+  margin-top: 9rem;
+  display: flex;
+  justify-content: center;
 }
 
 .achivements .image-2 {
-  width: 1271px;
-  height: 721px;
-  top: 578px;
-  left: 313px;
-  position: absolute;
+  width: 50rem;
+  height: auto;
+  /* top: 578px; */
+  /* left: 313px; */
+  /* position: absolute; */
   object-fit: cover;
 }
