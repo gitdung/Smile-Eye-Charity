@@ -316,7 +316,7 @@
 .achivements .hero-section {
   /* position: absolute; */
   width: 100%;
-  height: 400px;
+  height: 320px;
   /* top: 0; */
   /* left: 0; */
   background-color: #d9d9d9;
@@ -324,14 +324,14 @@
 
 .achivements .overlap-2 {
   position: relative;
-  height: fit-content;
+  height: 320px;
   background-color: #252a34cc;
 }
 
 .achivements .rectangle-5 {
-  width: 861px;
-  height: 400px;
-  left: 0;
+  width: 50rem;
+  height: 320px;
+  left: -3.4rem;
   position: absolute;
   top: 0;
 }
@@ -649,14 +649,15 @@
 
 .achivements .header {
   width: 100%;
-  height: 400px;
+  height: 320px;
 }
 
 .achivements .overlap-wrapper {
   position: relative;
-  height: 400px;
-  background-color: #d9d9d9;
+  height: 320px;
+  background-color: #a8a6a6;
   display: flex;
+  align-items: center;
 }
 
 .achivements .overlap-3 {
@@ -668,7 +669,7 @@
 
 .achivements .rectangle-6 {
   width: 100%;
-  height: 400px;
+  height: 320px;
   left: 0;
   background-color: #252a34a6;
   position: absolute;
