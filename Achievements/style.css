@@ -12,7 +12,7 @@
   background-color: #ffffff;
   overflow: hidden;
   width: 100vw;
-  height: 4521px;
+  height: auto;
   position: relative;
   overflow-y: hidden;
 }
@@ -34,6 +34,8 @@
 
 .achivements .my-overlap {
   /* position: absolute; */
+  display: flex;
+  justify-content: center;
   width: 100%;
   height: 676px;
   background-color: #d9d9d9;
@@ -49,7 +51,9 @@
 }
 
 .achivements .group {
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
   width: 1161px;
   height: 372px;
   top: 224px;
@@ -57,8 +61,8 @@
 }
 
 .achivements .overlap-group {
-  position: absolute;
-  width: 1155px;
+  /* position: absolute; */
+  width: fit-content;
   height: 116px;
   top: 210px;
   left: 0;
@@ -85,45 +89,6 @@
   line-height: 28px;
 }
 
-.achivements .ellipse {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  top: 0;
-  left: 522px;
-  background-color: #d9d9d9;
-  border-radius: 60px;
-  border: 2px solid;
-  border-color: #219d80;
-}
-
-.achivements .text-wrapper {
-  top: 152px;
-  left: 476px;
-  color: #ffffff;
-  font-size: 20px;
-  text-align: center;
-  line-height: 28px;
-  white-space: nowrap;
-  position: absolute;
-  font-family: "Raleway", Helvetica;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-.achivements .text-wrapper-2 {
-  top: 186px;
-  left: 545px;
-  font-family: "Inter", Helvetica;
-  font-weight: 600;
-  color: #ffffff;
-  font-size: 16px;
-  line-height: 24px;
-  white-space: nowrap;
-  position: absolute;
-  text-align: center;
-  letter-spacing: 0;
-}
 
 .achivements .group-2 {
   position: absolute;
@@ -925,7 +890,8 @@
 }
 
 .achivements .footer-wrapper {
-  position: absolute;
+  /* position: absolute; */
+  margin-top: 70rem;
   width: 100%;
   height: 512px;
   top: 4009px;
