@@ -33,7 +33,7 @@
 }
 
 .achivements .my-overlap {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 676px;
   background-color: #d9d9d9;
@@ -177,6 +177,11 @@
   white-space: nowrap;
 }
 
+.achivements .shithead {
+  display: flex;
+  justify-content: center;
+}
+
 .achivements .group-3 {
   position: absolute;
   width: 299px;
@@ -186,7 +191,7 @@
 }
 
 .achivements .our-testimonials-2 {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 75px;
   font-family: "Inter", Helvetica;
@@ -940,15 +945,21 @@
 }
 
 .achivements .group-12 {
-  position: relative;
-  width: fit-content;
+  /* position: relative; */
+  width: 100%;
   height: auto;
-  top: 72px;
-  left: 6rem;
+  /* top: 72px; */
+  /* left: 6rem; */
+  padding-top: 4.7rem;
+  padding-left: 10rem;
+  gap: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .achivements .group-13 {
-  position: absolute;
+  /* position: absolute; */
   width: 180px;
   height: 107px;
   top: 0;
@@ -1003,7 +1014,7 @@
 }
 
 .achivements .group-14 {
-  position: absolute;
+  /* position: absolute; */
   width: 447px;
   height: 169px;
   top: 2px;
@@ -1058,7 +1069,10 @@
 }
 
 .achivements .group-15 {
-  position: absolute;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   width: 605px;
   height: 393px;
   top: 0;
@@ -1074,7 +1088,7 @@
 }
 
 .achivements .group-17 {
-  position: absolute;
+  /* position: absolute; */
   width: 136px;
   height: 41px;
   top: 0;
@@ -1082,7 +1096,7 @@
 }
 
 .achivements .text-wrapper-23 {
-  position: absolute;
+  /* position: absolute; */
   width: 134px;
   top: 0;
   left: 0;
@@ -1095,11 +1109,18 @@
 }
 
 .achivements .group-18 {
-  position: absolute;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
   width: 609px;
   height: 131px;
   top: 93px;
   left: 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.achivements .haha {
   display: flex;
   flex-direction: row;
 }
@@ -1154,7 +1175,7 @@
 }
 
 .achivements .p {
-  position: absolute;
+  /* position: absolute; */
   width: 491px;
   top: 97px;
   left: 0;
@@ -1167,15 +1188,18 @@
 }
 
 .achivements .group-19 {
-  position: absolute;
+  /* position: absolute; */
   width: 319px;
   height: 117px;
   top: 276px;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .achivements .text-wrapper-25 {
-  position: absolute;
+  /* position: absolute; */
   width: 131px;
   top: 0;
   left: 0;
@@ -1188,7 +1212,10 @@
 }
 
 .achivements .group-20 {
-  position: absolute;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
   width: 314px;
   height: 55px;
   top: 62px;
@@ -1196,7 +1223,8 @@
 }
 
 .achivements .group-21 {
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   width: 55px;
   height: 55px;
   top: 0;
@@ -1214,31 +1242,25 @@
 }
 
 .achivements .group-23 {
-  position: absolute;
+  position: relative;
   width: 55px;
   height: 55px;
-  top: 0;
-  left: 86px;
   background-color: #d8f5ee;
   border-radius: 27.58px;
 }
 
 .achivements .group-24 {
-  position: absolute;
+  position: relative;
   width: 55px;
   height: 55px;
-  top: 0;
-  left: 172px;
   background-color: #d8f5ee;
   border-radius: 27.58px;
 }
 
 .achivements .group-25 {
-  position: absolute;
+  position: relative;
   width: 55px;
   height: 55px;
-  top: 0;
-  left: 259px;
   background-color: #d8f5ee;
   border-radius: 27.58px;
 }
