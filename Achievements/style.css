@@ -3,34 +3,44 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  overflow: hidden;
   width: 100%;
 }
 
-.achivements .div {
+
+.achivements .container {
   background-color: #ffffff;
-  overflow-x: hidden;
-  width: 1920px;
+  overflow: hidden;
+  width: 100vw;
   height: 4521px;
   position: relative;
+  overflow-y: hidden;
 }
 
 .achivements .our-testimonials {
-  position: absolute;
-  width: 1922px;
+  width: 100%;
   height: 676px;
-  top: 3333px;
+  top: 190rem;
   left: 0;
+  position: absolute;
 }
 
 .achivements .overlap {
   position: relative;
-  width: 1920px;
+  width: 100%;
+  height: 676px;
+  background-color: #d9d9d9;
+}
+
+.achivements .my-overlap {
+  /* position: absolute; */
+  width: 100%;
   height: 676px;
   background-color: #d9d9d9;
 }
 
 .achivements .rectangle {
-  width: 1920px;
+  width: 100%;
   height: 676px;
   left: 0;
   background-color: #252a34d9;
@@ -167,6 +177,11 @@
   white-space: nowrap;
 }
 
+.achivements .shithead {
+  display: flex;
+  justify-content: center;
+}
+
 .achivements .group-3 {
   position: absolute;
   width: 299px;
@@ -176,7 +191,7 @@
 }
 
 .achivements .our-testimonials-2 {
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 75px;
   font-family: "Inter", Helvetica;
@@ -235,18 +250,27 @@
   border-radius: 28px;
 }
 
+.achivements .dcm-n-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.achivements .dcm-no {
+  position: relative;
+  top: 5rem;
+
+}
+
 .achivements .our-gallery {
-  position: absolute;
-  width: 1298px;
-  height: 730px;
-  top: 2418px;
-  left: 323px;
+  /* position: absolute; */
+  width: auto;
+  height: auto;
+  top: 5rem;
 }
 
 .achivements .text-wrapper-4 {
   position: absolute;
-  top: 0;
-  left: 0;
+  left: -5rem;
   font-family: "Raleway", Helvetica;
   font-weight: 700;
   color: #252a34;
@@ -254,6 +278,11 @@
   letter-spacing: 0;
   line-height: 50px;
   white-space: nowrap;
+}
+
+.achivements .ssss {
+  position: absolute;
+  right: 40rem;
 }
 
 .achivements .unsplash {
@@ -320,17 +349,17 @@
 }
 
 .achivements .hero-section {
-  position: absolute;
-  width: 1920px;
+  /* position: absolute; */
+  width: 100%;
   height: 400px;
-  top: 0;
-  left: 0;
+  /* top: 0; */
+  /* left: 0; */
   background-color: #d9d9d9;
 }
 
 .achivements .overlap-2 {
   position: relative;
-  height: 400px;
+  height: fit-content;
   background-color: #252a34cc;
 }
 
@@ -610,7 +639,6 @@
 }
 
 .achivements .logo-white-2 {
-  position: relative;
   height: 47px;
 }
 
@@ -624,11 +652,11 @@
 }
 
 .achivements .overlap-group-3 {
-  position: absolute;
+  /* position: absolute; */
   width: 286px;
   height: 47px;
-  top: 0;
-  left: 0;
+  /* top: 0; */
+  /* left: 0; */
 }
 
 .achivements .logo {
@@ -655,27 +683,26 @@
 }
 
 .achivements .header {
-  position: absolute;
-  width: 1920px;
+  width: 100%;
   height: 400px;
-  top: 0;
-  left: 0;
 }
 
 .achivements .overlap-wrapper {
+  position: relative;
   height: 400px;
   background-color: #d9d9d9;
+  display: flex;
 }
 
 .achivements .overlap-3 {
   position: relative;
-  width: 1920px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   background-color: #252a34a6;
 }
 
 .achivements .rectangle-6 {
-  width: 1919px;
+  width: 100%;
   height: 400px;
   left: 0;
   background-color: #252a34a6;
@@ -687,20 +714,19 @@
   position: absolute;
   width: 329px;
   height: 60px;
-  top: 204px;
-  left: 797px;
+  top: 40%;
+  left: 40%;
 }
 
 .achivements .title {
-  position: absolute;
+  /* position: absolute; */
   height: 60px;
-  top: 0;
-  left: 0;
+  /* top: 0; */
+  /* left: 0; */
   font-family: "Raleway", Helvetica;
   font-weight: 700;
   color: #ffffff;
   font-size: 48px;
-  text-align: center;
   letter-spacing: 0;
   line-height: 60px;
   white-space: nowrap;
@@ -708,10 +734,26 @@
 
 .achivements .menu-bar {
   position: absolute;
-  width: 1222px;
-  height: 46px;
+  width: 20rem;
+  height: auto;
   top: 34px;
-  left: 672px;
+  left: 28%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.achivements .translate-cont {
+  display: flex;
+  margin-left: 8rem;
+}
+
+.achivements .nav-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
 }
 
 .achivements .div-wrapper {
@@ -726,18 +768,8 @@
   background-color: #3a7000;
 }
 
-.achivements .group-8 {
-  position: relative;
-  width: 36.07px;
-  height: 22px;
-  margin-right: -10.07px;
-}
-
 .achivements .text-wrapper-13 {
   width: 23px;
-  top: 4px;
-  position: absolute;
-  left: 0;
   font-family: "Nunito", Helvetica;
   font-weight: 400;
   color: #ffffff;
@@ -747,142 +779,140 @@
 }
 
 .achivements .group-9 {
-  position: absolute;
   width: 11px;
   height: 10px;
-  top: 0;
-  left: 23px;
 }
 
 .achivements .group-10 {
-  position: absolute;
   width: 759px;
   height: 28px;
-  top: 11px;
-  left: 0;
 }
 
 .achivements .text-wrapper-14 {
-  position: absolute;
-  width: 111px;
-  top: 0;
-  left: 196px;
   font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #dddddd;
   font-size: 16px;
-  text-align: center;
   letter-spacing: 0;
   line-height: 27px;
 }
 
 .achivements .text-wrapper-15 {
-  position: absolute;
-  width: 60px;
-  top: 0;
-  left: 103px;
   font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #dddddd;
   font-size: 16px;
-  text-align: center;
   letter-spacing: 0;
   line-height: 27px;
 }
 
 .achivements .text-wrapper-16 {
-  width: 68px;
-  top: 1px;
-  left: 619px;
   color: #dddddd;
-  position: absolute;
   font-family: "Inter", Helvetica;
   font-weight: 500;
   font-size: 16px;
-  text-align: center;
   letter-spacing: 0;
   line-height: 27px;
 }
 
 .achivements .text-wrapper-17 {
-  position: absolute;
-  width: 34px;
-  top: 1px;
-  left: 713px;
   font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #dddddd;
   font-size: 16px;
-  text-align: center;
   letter-spacing: 0;
   line-height: 27px;
 }
 
 .achivements .text-wrapper-18 {
-  width: 51px;
-  top: 0;
-  left: 0;
   color: #ffffff;
-  position: absolute;
   font-family: "Inter", Helvetica;
   font-weight: 500;
   font-size: 16px;
-  text-align: center;
   letter-spacing: 0;
   line-height: 27px;
 }
 
-.achivements .group-11 {
-  position: absolute;
-  width: 83px;
-  height: 27px;
-  top: 1px;
-  left: 334px;
-}
-
 .achivements .text-wrapper-19 {
-  position: absolute;
-  width: 81px;
-  top: 0;
-  left: 0;
   font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #dddddd;
   font-size: 16px;
-  text-align: center;
   letter-spacing: 0;
   line-height: 27px;
 }
 
 .achivements .founder {
-  width: 150px;
-  top: 1px;
-  left: 443px;
   font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #dddddd;
   font-size: 16px;
   line-height: 27px;
-  position: absolute;
-  text-align: center;
   letter-spacing: 0;
 }
 
 .achivements .image {
   width: 74px;
   height: 46px;
-  top: 0;
-  left: 1074px;
-  position: absolute;
   object-fit: cover;
 }
 
-.achivements .logo-white-wrapper {
-  top: 35px;
-  left: 302px;
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
   position: absolute;
-  width: 286px;
-  height: 47px;
+  background-color: #f9f9f9;
+  min-width: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.achivements .logo-white-wrapper {
+  top: 9%;
+  left: 2.1%;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
 }
 
 .achivements .subtract-7 {
@@ -896,32 +926,40 @@
 
 .achivements .footer-wrapper {
   position: absolute;
-  width: 1920px;
+  width: 100%;
   height: 512px;
   top: 4009px;
   left: -1px;
 }
 
 .achivements .footer {
+  /* position: absolute; */
+  left: -5rem;
   height: 512px;
 }
 
 .achivements .footer-2 {
-  width: 1920px;
+  width: 100%;
   height: 512px;
   background-color: #22262f;
 }
 
 .achivements .group-12 {
-  position: relative;
-  width: 1485px;
-  height: 393px;
-  top: 72px;
-  left: 199px;
+  /* position: relative; */
+  width: 100%;
+  height: auto;
+  /* top: 72px; */
+  /* left: 6rem; */
+  padding-top: 4.7rem;
+  padding-left: 10rem;
+  gap: 8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .achivements .group-13 {
-  position: absolute;
+  /* position: absolute; */
   width: 180px;
   height: 107px;
   top: 0;
@@ -976,7 +1014,7 @@
 }
 
 .achivements .group-14 {
-  position: absolute;
+  /* position: absolute; */
   width: 447px;
   height: 169px;
   top: 2px;
@@ -1031,7 +1069,10 @@
 }
 
 .achivements .group-15 {
-  position: absolute;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   width: 605px;
   height: 393px;
   top: 0;
@@ -1047,7 +1088,7 @@
 }
 
 .achivements .group-17 {
-  position: absolute;
+  /* position: absolute; */
   width: 136px;
   height: 41px;
   top: 0;
@@ -1055,7 +1096,7 @@
 }
 
 .achivements .text-wrapper-23 {
-  position: absolute;
+  /* position: absolute; */
   width: 134px;
   top: 0;
   left: 0;
@@ -1068,16 +1109,26 @@
 }
 
 .achivements .group-18 {
-  position: absolute;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
   width: 609px;
   height: 131px;
   top: 93px;
   left: 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.achivements .haha {
+  display: flex;
+  flex-direction: row;
 }
 
 .achivements .enter-your-email-wrapper {
-  position: absolute;
-  width: 479px;
+  /* position: absolute; */
+  position: relative;
+  width: 230px;
   height: 83px;
   top: 0;
   left: 0;
@@ -1086,9 +1137,10 @@
 
 .achivements .enter-your-email {
   position: absolute;
+  text-align: center;
   width: 203px;
   top: 26px;
-  left: 28px;
+  left: -2rem;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #555555;
@@ -1098,15 +1150,15 @@
 }
 
 .achivements .frame-2 {
-  align-items: center;
-  justify-content: center;
   left: 479px;
   background-color: #3a7000;
   display: inline-flex;
   gap: 10px;
   padding: 12px 24px;
-  position: absolute;
+  /* position: absolute; */
   top: 0;
+  width: 125px;
+  height: 48px;
 }
 
 .achivements .text-wrapper-24 {
@@ -1123,7 +1175,7 @@
 }
 
 .achivements .p {
-  position: absolute;
+  /* position: absolute; */
   width: 491px;
   top: 97px;
   left: 0;
@@ -1136,15 +1188,18 @@
 }
 
 .achivements .group-19 {
-  position: absolute;
+  /* position: absolute; */
   width: 319px;
   height: 117px;
   top: 276px;
   left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .achivements .text-wrapper-25 {
-  position: absolute;
+  /* position: absolute; */
   width: 131px;
   top: 0;
   left: 0;
@@ -1157,7 +1212,10 @@
 }
 
 .achivements .group-20 {
-  position: absolute;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
   width: 314px;
   height: 55px;
   top: 62px;
@@ -1165,7 +1223,8 @@
 }
 
 .achivements .group-21 {
-  position: absolute;
+  /* position: absolute; */
+  position: relative;
   width: 55px;
   height: 55px;
   top: 0;
@@ -1183,40 +1242,43 @@
 }
 
 .achivements .group-23 {
-  position: absolute;
+  position: relative;
   width: 55px;
   height: 55px;
-  top: 0;
-  left: 86px;
   background-color: #d8f5ee;
   border-radius: 27.58px;
 }
 
 .achivements .group-24 {
-  position: absolute;
+  position: relative;
   width: 55px;
   height: 55px;
-  top: 0;
-  left: 172px;
   background-color: #d8f5ee;
   border-radius: 27.58px;
 }
 
 .achivements .group-25 {
-  position: absolute;
+  position: relative;
   width: 55px;
   height: 55px;
-  top: 0;
-  left: 259px;
   background-color: #d8f5ee;
   border-radius: 27.58px;
 }
 
+.achivements .me-kiep {
+  display: flex;
+  justify-content: center;
+}
+
+.achivements .my-para {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
 .achivements .lorem-ipsum-dolor {
-  position: absolute;
-  width: 1296px;
-  top: 1606px;
-  left: 312px;
+  display: flex;
+  width: 50rem;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #666666;
@@ -1226,23 +1288,29 @@
 }
 
 .achivements .charity-project-for {
-  width: 1183px;
-  top: 1436px;
-  left: 323px;
+  justify-self: center;
+  text-align: center;
+  width: 50rem;
   color: #252a34;
   font-size: 50px;
   line-height: 50px;
-  position: absolute;
   font-family: "Raleway", Helvetica;
   font-weight: 700;
   letter-spacing: 0;
+  font-size: 35px;
+}
+
+.achivements .anh-em-nho {
+  margin-top: 9rem;
+  display: flex;
+  justify-content: center;
 }
 
 .achivements .image-2 {
-  width: 1271px;
-  height: 721px;
-  top: 578px;
-  left: 313px;
-  position: absolute;
+  width: 50rem;
+  height: auto;
+  /* top: 578px; */
+  /* left: 313px; */
+  /* position: absolute; */
   object-fit: cover;
 }
