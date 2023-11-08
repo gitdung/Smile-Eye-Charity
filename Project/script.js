@@ -25,3 +25,35 @@ window.onclick = function (event) {
         modal.style.display = "none";
     }
 }
+var modal1 = document.getElementById("myModal1");
+var btns1 = document.querySelectorAll(".image-19-icon");
+btns1.forEach(btn => {
+    btn.onclick = function () {
+        var copyText = "https://smileeyecharity.org/"
+
+        // Select the text field
+        // copyText.select();
+        // copyText.setSelectionRange(0, 99999); // For mobile devices
+
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText);
+
+        // Alert the copied text
+        alert("Copied the text: " + copyText);
+    }
+});
+var share = document.querySelectorAll(".image-18-icon6");
+share[0].onclick = function () {
+    var copyText = "https://smileeyecharity.org/"
+
+    // Select the text field
+    // copyText.select();
+    // copyText.setSelectionRange(0, 99999); // For mobile devices
+
+    // Copy the text inside the text field
+    navigator.clipboard.writeText(copyText);
+
+    // Alert the copied text
+    alert("Copied the text: " + copyText);
+}
+
